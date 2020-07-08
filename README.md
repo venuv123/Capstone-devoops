@@ -1,11 +1,11 @@
 # Bike sharing analysis with Ford GoBike dataset
-## by Mr. Burak Gunbatan
+
 
 ## Dataset
 
 > The data consists of information regarding 3.31 billion bike hiring, including
 age, timeframe, gender, station, and others. The dataset can be found in Ford GoBike website.  
-Dataset: (https://s3.amazonaws.com/fordgobike-data/index.html)  
+
 The data consisted of 16 different variables such as age, gender, weekday, time and others. It contains 3.31 billion rides. Ages in dataset from 18 to 56 takes 95% of the users in dataset. There were users more than 100 years old. So, we can remove users more than 60 years old as a cleaning and tidy up.
 Also, i generated new fields such as age group in order to make grouping and analyze the date by using groups.  
 Ford GoBike spreaded the service to San Francisco, Oakland and San Jose. However, it's hard to imagine traffic. So regarding this complexity, I decided to focus on San Fancisco area. 
